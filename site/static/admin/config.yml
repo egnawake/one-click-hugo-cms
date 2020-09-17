@@ -24,6 +24,12 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Video", name: "video", widget: "image"}
       - {label: "Description", name: "description", widget: "text"}
+      - label: "Relation"
+        name: "relation"
+        widget: "relation"
+        collection: "post"
+        value_field: "title"
+        search_fields: ["title"]
   - name: "pages"
     label: "Pages"
     files:
