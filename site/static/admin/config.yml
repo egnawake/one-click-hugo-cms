@@ -3,6 +3,7 @@ backend:
 
 media_folder: "site/static/img" # Folder where user uploaded files should go
 public_folder: "img"
+site_url: https://nifty-raman-231f4d.netlify.app
 
 collections: # A list of collections the CMS should be able to edit
   - name: "post" # Used in routes, ie.: /admin/collections/:slug/edit
@@ -21,7 +22,7 @@ collections: # A list of collections the CMS should be able to edit
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Video", name: "video", widget: "file"}
+      - {label: "Video", name: "video", widget: "image
       - {label: "Description", name: "description", widget: "text"}
   - name: "pages"
     label: "Pages"
