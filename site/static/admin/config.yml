@@ -22,7 +22,7 @@ collections: # A list of collections the CMS should be able to edit
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Video", name: "video", widget: "image
+      - {label: "Video", name: "video", widget: "image"}
       - {label: "Description", name: "description", widget: "text"}
   - name: "pages"
     label: "Pages"
